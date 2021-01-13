@@ -1,0 +1,42 @@
+with open ('numere.txt','r') as f:
+    a=f.read()
+x=int(a)*1
+y=int(a)*2
+z=int(a)*3
+l=int(a)*4
+m=int(a)*5
+n=int(a)*6
+o=int(a)*7
+p=int(a)*8
+q=int(a)*9
+r=int(a)*10
+n1='1*'+str(a)+'='+str(x)
+n2='2*'+str(a)+'='+str(y)
+n3='3*'+str(a)+'='+str(z)
+n4='4*'+str(a)+'='+str(l)
+n5='5*'+str(a)+'='+str(m)
+n6='6*'+str(a)+'='+str(n)
+n7='7*'+str(a)+'='+str(o)
+n8='8*'+str(a)+'='+str(p)
+n9='9*'+str(a)+'='+str(q)
+n10='10*'+str(a)+'='+str(r)
+with open('tablainmultirii.txt','w') as f:
+    f.write(str(n1))
+    f.write('\n')
+    f.write(str(n2))
+    f.write('\n')
+    f.write(str(n3))
+    f.write('\n')
+    f.write(str(n4))
+    f.write('\n')
+    f.write(str(n5))
+    f.write('\n')
+    f.write(str(n6))
+    f.write('\n')
+    f.write(str(n7))
+    f.write('\n')
+    f.write(str(n8))
+    f.write('\n')
+    f.write(str(n9))
+    f.write('\n')
+    f.write(str(n10))
